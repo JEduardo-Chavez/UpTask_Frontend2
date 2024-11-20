@@ -2,7 +2,7 @@ import {isAxiosError} from "axios";
 import api from "@/lib/axios";
 import { CheckPasswordForm, ConfirmToken, ForgotPasswordForm, NewPasswordForm, RequestConfirmationCodeForm, UserLoginForm, UserRegistrationForm, userSchema } from "../types";
 
-
+// UN COMENTARIO
 export async function createAccount(formData : UserRegistrationForm) {
     try {
         const url = 'auth/create-account'
